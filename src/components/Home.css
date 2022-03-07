@@ -1,0 +1,43 @@
+.plans {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  /* max-width: 500px; */
+  margin: 2rem 0;
+}
+
+.plans-container {
+  max-width: 70vw;
+  margin: 2rem auto;
+  margin-top: 100px;
+}
+
+button {
+  background: #2ecc71;
+  padding: 1rem 4rem;
+  border-radius: 6px;
+  font-size: 18px;
+  text-transform: uppercase;
+  flex-shrink: 0;
+  outline: none;
+  border: none;
+  color: #ffffff;
+  font-weight: bold;
+  width: 300px;
+  cursor: pointer;
+  transition: all 0.3s linear;
+}
+
+button:hover {
+  background: #27ae60;
+}
+
+button.logout {
+  background: #e74c3c;
+}
+
+button.subscribed {
+  background: #2c3e50;
+}

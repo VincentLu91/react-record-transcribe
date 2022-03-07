@@ -1,0 +1,4 @@
+export const LanguageTypes = {
+    // TRANSCRIPTION TYPES
+    PRINT_TRANSCRIPTION: "PRINT_TRANSCRIPTION",
+}
