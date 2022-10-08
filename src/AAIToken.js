@@ -1,3 +1,3 @@
-const token = "STT API UNIQUE TOKEN KEY";
+const token = process.env.AAI_TOKEN_KEY;
 
 module.exports = token;
